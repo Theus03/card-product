@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="app">
+        <div class="product-img">
+            <div class="actions-buttons">
+                <img src="assets/close.png" alt="Fechar" id="close-img" onclick="Parar()" style="display: none;">
+                <img src="assets/360.png" alt="Rodar 360" onclick="Girar()" id="rotate-img">
+            </div>
+            <img src="assets/img-product.png" alt="Imagem de um sofá" id="static-img">
+            <img src="assets/img-product-360.gif" alt="Rodar 360" id="rotate-360-img" style="display: none;">
+            
+        </div>
+        <div class="product-content">
+            <p>CÓDIGO 42404</p>
+            <h2>Sofá Margot II - Rosé</h2>
+            <h3>R$ 4.000 </h3>
+            <button>ADICIONAR À CESTA</button>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
